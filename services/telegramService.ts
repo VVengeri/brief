@@ -4,8 +4,8 @@ import { IFormData } from '../types';
  * Сервис для отправки готового ТЗ в Telegram
  */
 export class TelegramService {
-    private static readonly BOT_TOKEN = 'YOUR_BOT_TOKEN'; // Замените на токен вашего бота
-    private static readonly CHAT_ID = 'YOUR_CHAT_ID'; // Замените на ID чата для получения сообщений
+    private static readonly BOT_TOKEN = '8330890674:AAFMKhcjRk5T-FpR59gner1EAI07EwJeV5k';
+    private static readonly CHAT_ID = '423198533';
 
     /**
      * Отправляет HTML-файл бриф в Telegram
